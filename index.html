@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Park Ju Young | Senior Web Publisher</title>
+    <meta name="description" content="16년 경력 웹퍼블리셔 박주영 포트폴리오">
+    <meta property="og:title" content="Park Ju Young Portfolio">
+    <meta property="og:description" content="Senior Web Publisher Portfolio">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+</head>
+
+<body>
+
+<div class="cursor"></div>
+
+<header class="header">
+    <div class="container">
+        <a href="#" class="logo">
+            <span>PJ.</span>
+        </a>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#works">Works</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#career">Career</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="theme-btn" aria-label="Dark Mode">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
+                <path d="M21 12.79A9 9 0 1111.21 3
+                    7 7 0 0021 12.79Z"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+            </svg>
+        </button>
+    </div>
+</header>
+
+<main>
+
+<section class="hero">
+    <div class="container hero-inner">
+        <div class="hero-content">
+            <span class="hero-label">
+                DESIGN × PUBLISHING × USER EXPERIENCE
+            </span>
+            <h1>
+                PARK
+                <br>
+                JU YOUNG
+            </h1>
+            <p>
+                Building intuitive interfaces,
+                publishing with precision,
+                and delivering user-focused
+                digital experiences.
+            </p>
+            <div class="hero-buttons">
+                <a href="#works" class="btn btn-primary">
+                    View Projects
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    Contact
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-side">
+            <div class="experience-box">
+                <span class="title">
+                    EXPERIENCE
+                </span>
+                <strong>
+                    16+
+                </strong>
+                <span class="sub">
+                    YEARS
+                </span>
+            </div>
+            <div class="tech-stack">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>jQuery</span>
+                <span>React</span>
+                <span>Git</span>
+                <span>Figma</span>
+                <span>Accessibility</span>
+                <span>Responsive</span>
+            </div>
+        </div>
+    </div>
+    <div class="scroll-down">
+        <span>
+            SCROLL
+        </span>
+        <div class="line"></div>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="container">
+        <div class="stats-grid">
+            <article>
+                <strong data-count="16">
+                    16+
+                </strong>
+                <span>
+                    Years Experience
+                </span>
+            </article>
+            <article>
+                <strong data-count="20">
+                    20+
+                </strong>
+                <span>
+                    Major Projects
+                </span>
+            </article>
+            <article>
+                <strong data-count="10">
+                    10+
+                </strong>
+                <span>
+                    Clients
+                </span>
+            </article>
+            <article>
+                <strong>
+                    100%
+                </strong>
+                <span>
+                    Responsive
+                </span>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================================
+    FEATURED WORKS
+=================================================== -->
+
+<section id="works" class="works">
+
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-label">
+                SELECTED WORKS
+            </span>
+            <h2>
+                Featured Projects
+            </h2>
+            <p>
+                다양한 산업의 프로젝트를 수행하며
+                사용자 경험을 중심으로
+                웹 서비스를 구축했습니다.
+            </p>
+        </div>
+
+        <div class="project-filter">
+            <button class="active" data-filter="all">
+                All
+            </button>
+            <button data-filter="finance">
+                Finance
+            </button>
+            <button data-filter="public">
+                Public
+            </button>
+            <button data-filter="hospital">
+                Hospital
+            </button>
+            <button data-filter="corporate">
+                Corporate
+            </button>
+        </div>
+
+
+
+        <div class="project-grid">
+
+            <!-- MarineWorks -->
+
+            <article class="project-card corporate">
+                <a href="#">
+                    <div class="project-image">
+                        <img src="images/project-marineworks.webp" alt="MarineWorks">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-category">
+                            Corporate
+                        </span>
+                        <h3>
+                            MarineWorks
+                        </h3>
+                        <p>
+                            Corporate Website Renewal
+                        </p>
+                        <ul class="project-tags">
+                            <li>Design</li>
+                            <li>Publishing</li>
+                            <li>Responsive</li>
+                            <li>Git</li>
+                        </ul>
+                        <span class="project-link">
+                            View Case →
+                        </span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Shinhan -->
+
+            <article class="project-card finance">
+                <a href="#">
+                    <div class="project-image">
+                        <img src="images/project-shinhan.webp" alt="Shinhan Card">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-category">
+                            Finance
+                        </span>
+                        <h3>
+                            Shinhan Card
+                        </h3>
+                        <p>
+                            Marketing CMS Publishing
+                        </p>
+                        <ul class="project-tags">
+                            <li>CMS</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <span class="project-link">
+                            View Case →
+                        </span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Bank -->
+
+            <article class="project-card public">
+                <a href="#">
+                    <div class="project-image">
+                        <img src="images/project-bank.webp" alt="Bank of Korea">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-category">
+                            Public
+                        </span>
+                        <h3>
+                            Bank of Korea
+                        </h3>
+                        <p>
+                            Accessibility & CMS
+                        </p>
+                        <ul class="project-tags">
+                            <li>Accessibility</li>
+                            <li>Responsive</li>
+                            <li>Git</li>
+                            <li>CMS</li>
+                        </ul>
+                        <span class="project-link">
+                            View Case →
+                        </span>
+                    </div>
+                </a>
+            </article>
+
+            <!-- Hospital -->
+
+            <article class="project-card hospital">
+                <a href="#">
+                    <div class="project-image">
+                        <img src="images/project-pnu.webp" alt="Pusan National University Hospital">
+                    </div>
+                    <div class="project-body">
+                        <span class="project-category">
+                            Hospital
+                        </span>
+                        <h3>
+                            PNU Hospital
+                        </h3>
+                        <p>
+                            EMR UI Publishing
+                        </p>
+                        <ul class="project-tags">
+                            <li>UI Design</li>
+                            <li>Publishing</li>
+                            <li>JavaScript</li>
+                            <li>Git</li>
+                        </ul>
+
+                        <span class="project-link">
+                            View Case →
+                        </span>
+                    </div>
+                </a>
+            </article>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ===================================================
+    ABOUT
+=================================================== -->
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="about-grid">
+            <div class="about-left">
+                <span class="section-label">
+                    WHO I AM
+                </span>
+                <h2>
+                    Designing and Publishing
+                    Digital Experiences.
+
+                </h2>
+            </div>
+            <div class="about-right">
+                <p>
+                    안녕하세요.
+                    16년 이상의 실무 경험을 가진 웹퍼블리셔 박주영입니다.
+                </p>
+                <p>
+                    금융, 공공기관, 병원, 기업 등
+                    다양한 프로젝트를 수행하며
+                    웹표준과 웹접근성을 고려한
+                    사용자 중심의 UI를 구축해왔습니다.
+                </p>
+                <p>
+                    HTML, CSS, JavaScript를 기반으로
+                    유지보수가 쉬운 구조를 설계하고,
+                    디자인와 퍼블리싱을 함께 수행할 수 있습니다.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================================
+    EXPERIENCE
+=================================================== -->
+
+<section id="career" class="career">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-label">
+                EXPERIENCE
+            </span>
+            <h2>
+                Career Timeline
+            </h2>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span>2026</span>
+                <div>
+                    <h3>MarineWorks</h3>
+                    <p>Corporate Website Renewal</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span>2025</span>
+                <div>
+                    <h3>Shinhan Card</h3>
+                    <p>Marketing CMS Publishing</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span>2024</span>
+                <div>
+                    <h3>Bank of Korea</h3>
+                    <p>Publishing · Accessibility</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span>2024</span>
+                <div>
+                    <h3>PNU Hospital</h3>
+                    <p>EMR UI Publishing</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <span>2023</span>
+                <div>
+                    <h3>LINA Life Insurance</h3>
+                    <p>CMS Operation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================================
+    SKILLS
+=================================================== -->
+
+<section id="skills" class="skills">
+    <div class="container">
+        <div class="section-heading">
+            <span class="section-label">
+                SKILLS
+            </span>
+            <h2>
+                Technical Skills
+            </h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML5</h3>
+                <div class="skill-bar">
+                    <span style="width:98%"></span>
+                </div>
+                <small>Semantic Markup</small>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS3</h3>
+                <div class="skill-bar">
+                    <span style="width:98%"></span>
+                </div>
+                <small>Responsive UI</small>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <div class="skill-bar">
+                    <span style="width:90%"></span>
+                </div>
+                <small>Interactive UI</small>
+            </div>
+
+            <div class="skill-card">
+                <h3>jQuery</h3>
+                <div class="skill-bar">
+                    <span style="width:95%"></span>
+                </div>
+                <small>Publishing</small>
+            </div>
+
+            <div class="skill-card">
+                <h3>React</h3>
+                <div class="skill-bar">
+                    <span style="width:75%"></span>
+                </div>
+                <small>Course Completed</small>
+            </div>
+
+            <div class="skill-card">
+                <h3>Git</h3>
+                <div class="skill-bar">
+                    <span style="width:85%"></span>
+                </div>
+                <small>Version Control</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===================================================
+    CONTACT
+=================================================== -->
+
+<section id="contact" class="contact">
+    <div class="container">
+        <div class="contact-box">
+            <span class="section-label">
+                CONTACT
+            </span>
+            <h2>
+                Let's Build
+                Something Great Together.
+            </h2>
+            <p>
+                새로운 프로젝트와 협업을 기다리고 있습니다.
+                사용자 중심의 웹 서비스를 함께 만들어보세요.
+            </p>
+
+            <div class="contact-buttons">
+                <a href="mailto:snowdrop_jy@naver.com"
+                   class="btn btn-primary">
+                    Send Email
+                </a>
+                <a href="https://github.com/juyoung80"
+                   target="_blank"
+                   class="btn btn-outline">
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!-- ===================================================
+    FOOTER
+=================================================== -->
+
+<footer class="footer">
+
+    <div class="container footer-inner">
+
+        <div class="footer-left">
+
+            <h2>
+
+                PJ.
+
+            </h2>
+
+            <p>
+
+                Senior Web Publisher
+
+            </p>
+
+        </div>
+
+        <div class="footer-right">
+
+            <a href="#">
+
+                Top ↑
+
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        © 2026 Park Ju Young.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+</main>
+
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
